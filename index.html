@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upile Chingolo | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <header>
     <nav>
       <div class="logo">UPILE CHINGOLO</div>
@@ -17,6 +16,7 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <button id="theme-toggle" class="btn secondary">Toggle Theme</button>
     </nav>
   </header>
 
@@ -31,7 +31,6 @@
     </div>
   </section>
 
-  
   <section id="about" class="about">
     <div class="about-container">
       <h2>About Me</h2>
@@ -41,28 +40,23 @@
           <h4>Passionate About Clean Code</h4>
           <h5>Always Learning New Technologies</h5>
           <h6>Professional</h6>
-          
-          <p class="">
-            Lorem ipsum dolor sit amet 
-            consectetur adipisicing elit. 
-            Natus, quaerat ipsum quidem mollitia 
-            excepturi architecto rem. Ad quas, facilis illum laboriosam, pariatur error 
-            fuga iusto tempora deserunt incidunt dolorem porro. Natus, 
-            quaerat ipsum quidem mollitia excepturi architecto rem. Ad quas, facilis illum laboriosam, pariatur error fuga iusto tempora deserunt incidunt dolorem porro.
-          
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique non ab magnam 
-            distinctio deserunt debitis ducimus molestias quaerat, eos a in consequatur architecto 
-            hic, nesciunt omnis. Dolorum consequuntur ab quo?
+            I specialize in creating responsive and dynamic web applications. 
+            I believe in writing clean, efficient, and scalable code that 
+            delivers a seamless user experience.
           </p>
-          
+
+          <p>
+            My skills include front-end design, UI/UX optimization, and integrating 
+            JavaScript for interactive features that make websites feel alive.
+          </p>
+
           <div class="skills-links">
             <a href="https://github.com" target="_blank" class="skill-link">GitHub Profile</a>
             <a href="https://linkedin.com" target="_blank" class="skill-link">LinkedIn</a>
-            <a href="mailto:contact@example.com" class="skill-link">Email Me</a>
-          </div>
+                     </div>
         </div>
-        
+
         <div class="about-image">
           <img src="upie.jpg" alt="Developer workspace" />
         </div>
@@ -70,21 +64,22 @@
     </div>
   </section>
 
-
   <section id="projects" class="projects">
     <h2>My Projects</h2>
     <div class="project-grid">
       <div class="project-card">
-        <h3>SmartPost web App</h3>
-        <p></p>
-        <a href="#" class="project-link">View Project</a>
+        <h3>SmartPost Web App</h3>
+        <p>A social media management tool that automates content posting.</p>
+        <a href="smartpost.html" class="project-link">View Project</a>
       </div>
       <div class="project-card">
         <h3>Portfolio Website</h3>
+        <p>A responsive personal website showcasing my work and skills.</p>
         <a href="#" class="project-link">View Project</a>
       </div>
       <div class="project-card">
-        <h3>Business center App</h3>
+        <h3>Business Center App</h3>
+        <p>A small business management system for tracking sales and clients.</p>
         <a href="#" class="project-link">View Project</a>
       </div>
     </div>
@@ -92,17 +87,19 @@
 
   <section id="contact" class="contact">
     <h2>Contact Me</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn primary">Send Message</button>
+    <!-- ✅ Replace the Formspree URL below with your own endpoint -->
+    <form id="contact-form" action="https://formspree.io/f/xldoyqya" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
     </form>
   </section>
 
-
   <footer>
-    <p>© 2025 My Portfolio</p>
+    <p>© 2025 Upile Chingolo | Portfolio</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
