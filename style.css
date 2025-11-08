@@ -192,10 +192,28 @@ nav {
 }
 
 .about-image img {
-  width: 100%;
-  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+  object-fit: cover;
+  border: 4px solid #f44336;
+  position: absolute;
+  top: 1080px;
+  right: 30%;
+
 }
+.about-image p{
+  color: #f44336;
+  font-style: italic;
+  margin-top: 220px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+
 
 .skills-links {
   display: flex;
