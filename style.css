@@ -9,7 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #0f172a; /* Dark mode background */
+  background: #ffffff; /* Dark mode background */
   color: #e2e8f0;
   line-height: 1.6;
   scroll-behavior: smooth;
@@ -20,7 +20,7 @@ body {
 /* HEADER / NAVIGATION   */
 /* ===================== */
 header {
-  background: #1e293b;
+  background: #ffffff;
   padding: 1rem 2rem;
   position: sticky;
   top: 0;
@@ -52,7 +52,7 @@ nav {
 
 .nav-links a {
   text-decoration: none;
-  color: #e2e8f0;
+  color: #000000;
   transition: color 0.3s;
 }
 
@@ -144,7 +144,7 @@ nav {
 /* ===================== */
 .about {
   padding: 4rem 2rem;
-  background: #1e293b;
+  background: #fbcbcb;
   transition: background 0.4s;
 }
 
@@ -178,30 +178,31 @@ nav {
 .about-text h3 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #fff;
+  color: #000000;
 }
 
 .about-text h4 {
   font-size: 1.5rem;
   margin-bottom: 0.8rem;
-  color: #ccc;
+  color: #000000;
 }
 
 .about-text h5 {
   font-size: 1.2rem;
   margin-bottom: 0.6rem;
-  color: #aaa;
+  color: #000000;
 }
 
 .about-text h6 {
   font-size: 1rem;
   margin-bottom: 1.5rem;
-  color: #888;
+  color: #000000;
 }
 
 .about-text p {
   margin-bottom: 1.5rem;
   font-size: 1.1rem;
+  color: black;
 }
 
 
@@ -243,7 +244,7 @@ nav {
 .projects {
   padding: 4rem 2rem;
   text-align: center;
-  background: #0f172a;
+  background: #ffffff4c;
   transition: background 0.4s;
 }
 
@@ -264,13 +265,18 @@ nav {
 }
 
 .project-card {
-  background: #1e293b;
+  background: #fbcbcb;
   padding: 1.5rem;
   border-radius: 10px;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .project-card h3 {
+  color: #f44336;
+  margin-bottom: 1rem;
+}
+
+.project-card p {
   color: #f44336;
   margin-bottom: 1rem;
 }
@@ -292,8 +298,8 @@ nav {
   color: #ff6f61;
 }
 #contact-form button {
-  background: #334155;
-  color: #fff;
+  background: #f443364d;
+  color: #000000;
   border: none;
   padding: 12px 20px;
   border-radius: 6px;
@@ -303,7 +309,7 @@ nav {
 }
 
 #contact-form button:hover {
-  background: #334155;
+  background: #f443364d;
   transform: translateY(-2px);
 }
 
@@ -312,7 +318,7 @@ nav {
 /* ===================== */
 .contact {
   padding: 4rem 2rem;
-  background: #1e293b;
+  background: #fbcbcb;
   transition: background 0.4s;
 }
 
@@ -336,8 +342,8 @@ nav {
   padding: 0.75rem;
   border: none;
   border-radius: 5px;
-  background: #334155;
-  color: #fff;
+  background: #f443364d;
+  color: #453333;
   font-size: 1rem;
 }
 
@@ -349,8 +355,9 @@ nav {
 /* FOOTER                */
 /* ===================== */
 footer {
-  background: #1e293b;
+  background: #fbcbcb;
   text-align: center;
+  color: red;
   padding: 1rem;
   margin-top: 2rem;
   transition: background 0.4s, color 0.4s;
@@ -371,7 +378,7 @@ body.light-mode footer {
 }
 
 body.light-mode .nav-links a {
-  color: #0f172a;
+  color: #ffffff;
 }
 
 body.light-mode .nav-links a:hover {
@@ -426,7 +433,7 @@ body.light-mode .about{
 
 body.light-mode .contact input,
 body.light-mode .contact textarea {
-  background: #334155;
+  background: #000000;
   color: #0f172a;
 }
 
@@ -439,6 +446,10 @@ body.light-mode .about p{
   color: #ffffff;
 }
 
+body.light-mode .about-image p{
+  color: #e53935;
+}
+
 body.light-mode .about h4 {
   color: #ffffff;
 }
@@ -448,6 +459,11 @@ body.light-mode .about h5 {
 }
 
 body.light-mode .about h6 {
+  color: #ffffff;
+}
+
+
+body.light-mode .about h3 {
   color: #ffffff;
 }
 
